@@ -1,13 +1,20 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.container div{
+    height:100px;
+    width: 100px;
+    margin:5px;
+    padding:1px;
+}
+.container{
+    height:330px;
+    width: 120px;
+    background-color:black;
+    border-radius: 10px;
+    padding: 7px;
+}
+.selected {
+    box-shadow: 0px 0px 10px 10px #FFFF00;
+}
+//Nota: Esta clase da el efecto de brillito.
